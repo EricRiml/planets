@@ -5,6 +5,8 @@ $(document).ready(function() {
     // initialize globals
     
     var loadingError = false;
+
+    // don't need this.
     
     var getJSONfile = $.get("http://api.planets.nu/static/all", createShipFile);
     
