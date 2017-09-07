@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Michroma" />
         <link rel="stylesheet" href="css/shipBuilder.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/shipBuilder.js"></script>
+        <script src='js/shipBuilder.js?<?php echo time(); ?>'></script>
     </head>
 <body>
     <h1>Ship Builder Utility - Planets</h1>
